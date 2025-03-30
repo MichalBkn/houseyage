@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside id="sidebar">
+        <img id="company-logo" src="./assets/Strabag.svg" alt="Construction Company">
+        <ul id="nav-buttons">
+            <li>Projects</li>
+            <li>Users</li>
+        </ul>
+    </aside>
+    <main id="content">
+        <dialog id="new-project-user">
+            <form action="">
+                <div id="form_header">
+                    <h2>New user</h2>
+                    <span class="material-symbols-outlined">person_add</span>
+                    
+                </div>
+                <div class="input-list">
+                    <div class="input-list-labels">
+                        <label>Name</label>
+                        <input id=input_form type="text" placeholder="Type your full name...">
+                    </div>
+                    <div class="input-list-labels">
+                        <label>Role</label>
+                        <select>
+                            <option>Construction manager</option>
+                            <option>Worker</option>
+                            <option>Project manager</option>
+                            <option>Site manager</option>
+                          </select>
+                    </div>
+                    <div class="input-list-labels">
+                        <label>Group</label>
+                        <select>
+                            <option>General Contractor</option>
+                            <option>Subcontractor</option>
+                            <option>Investor</option>
+                          </select>
+                    </div>
+                    <div>
+                        <label>Permission</label>
+                        <select>
+                            <option>Admin</option>
+                            <option>User</option>
+                            
+                          </select>
+                    </div>
+                </div>    
+                <div id="form_footer">
+                    <button id="ADD_button">Cancel</button>
+                    <button id="ADD_button">Add</button>
+                </div>    
+                </div>
+            </form>
+        </dialog>    
+        <header>
+            <h1>FNsP Hospital Project</h1>
+            <div id="AR_buttons">
+                <button id="ADD_button"><span class="material-symbols-outlined">person_add</span>Add</button>
+                <button>Remove<span class="material-symbols-outlined">person_remove</span></button>
+            </div>    
+        </header>
+        <div id="sub_header1">
+            <h3>Users</h3>
+            <div id="GRID_buttons">
+                <span class="material-symbols-outlined">grid_view</span>
+                <div style="background-color:#C4BEBD ;border-radius: 5px;"><span class="material-symbols-outlined">view_list</span></div>
+            </div>
+        </div>
+        <div id="searching_bar">
+            <i><span class="material-symbols-outlined">search</span></i>
+            <input type="text" placeholder="Search">
+            <div id="filter_button"><span class="material-symbols-outlined">add</span>Add filter</div>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th><h4 class="user_table_header_elements">User name<span class="material-symbols-outlined">expand_all</span></h4></th>
+                    <th><h4 class="user_table_header_elements">Role<span class="material-symbols-outlined">expand_all</span></h4></th>
+                    <th><h4 class="user_table_header_elements">Group<span class="material-symbols-outlined">expand_all</span></h4></th>
+                    <th><h4 class="user_table_header_elements">Permission<span class="material-symbols-outlined">expand_all</span></h4></th>
+                    <th id="action_H"><h4 class="user_table_header_elements">Action<span class="material-symbols-outlined">expand_all</span></h4></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Albert Flores</td>
+                <td>Construction manager</td>
+                <td>General Contractor</td>
+                <td>Admin</td>
+                <td id="action_D"><span class="material-symbols-outlined">more_vert</span></td>
+            </tr>
+            <tr>
+                <td>Darell Stevard</td>
+                <td>Worker</td>
+                <td>Subcontractor</td>
+                <td>User</td>
+                <td id="action_D"><span class="material-symbols-outlined">more_vert</span></td>
+            </tr>
+            <tr>
+                <td>Pablo Santos</td>
+                <td>Worker</td>
+                <td>Subcontractor</td>
+                <td>User</td>
+                <td id="action_D"><span class="material-symbols-outlined">more_vert</span></td>
+            </tr>
+            <tr>
+                <td>Daniel Green</td>
+                <td>Project manager</td>
+                <td>Investor</td>
+                <td>User</td>
+                <td id="action_D"><span class="material-symbols-outlined">more_vert</span></td>
+            </tr>
+            <tr>
+                <td>Paul Red</td>
+                <td>Site Manager</td>
+                <td>General Contractor</td>
+                <td>Admin</td>
+                <td id="action_D"><span class="material-symbols-outlined">more_vert</span></td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
