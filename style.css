@@ -2,22 +2,26 @@
 
 * {
     font-family: 'Boldonse'; 
+    
 }
 
 body{
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
     place-items: center;
     height: 100vh;
+
 }
 
 #header1{
-    font-size: 50px;
+    font-size: 3vw;
     margin: 0px;
     padding: 0;
 }
 
 #header2{
-    font-size: 120px;
+    font-size: 10vw;
     margin: 0px;
     padding: 0;
 }
