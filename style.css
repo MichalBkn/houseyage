@@ -25,3 +25,14 @@ body{
     margin: 0px;
     padding: 0;
 }
+
+.video-container {
+    width: 100%; /* Video sa natiahne na celú dostupnú šírku */
+    max-width: 600px; /* Môžeš nastaviť maximálnu šírku */
+    aspect-ratio: 16 / 9; /* Udrží pomer strán 16:9 */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
